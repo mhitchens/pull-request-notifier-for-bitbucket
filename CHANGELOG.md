@@ -2,11 +2,36 @@
 
 Changelog of Pull Request Notifier for Bitbucket.
 
-## Unreleased
+## 3.20
+### GitHub [#229](https://github.com/tomasbjerre/pull-request-notifier-for-bitbucket/issues/229) PULL_REQUEST_{TO,FROM}_{HTTP,SSH}_CLONE_URL variables contains username
+  Proposed URI reconstruction to remove username from PULL_REQUEST_{TO_FROM}_{HTTP,SSH}_CLONE_URL
+
+Signed-off-by: Jared Woolston <Jared.Woolston@gmail.com>
+  
+  [8b3d22b5a6e438e](https://github.com/tomasbjerre/pull-request-notifier-for-bitbucket/commit/8b3d22b5a6e438e) Jared Woolston *2018-01-30 16:55:18*
+
 ### No issue
   Doc
   
-  [f6397349f717ed0](https://github.com/tomasbjerre/pull-request-notifier-for-bitbucket/commit/f6397349f717ed0) Tomas Bjerre *2017-11-20 19:24:00*
+  [73e8e001f9c0e41](https://github.com/tomasbjerre/pull-request-notifier-for-bitbucket/commit/73e8e001f9c0e41) Tomas Bjerre *2017-12-26 18:45:53*
+
+## 3.19
+### No issue
+  Using Findbugs 3.0.0
+
+ * Because latest gives error on mvn deploy.
+  
+  [db0f61a3771b5b0](https://github.com/tomasbjerre/pull-request-notifier-for-bitbucket/commit/db0f61a3771b5b0) Tomas Bjerre *2018-01-27 12:51:09*
+
+  Bitbucket 5.7.0
+  
+  [97a2d280192bde5](https://github.com/tomasbjerre/pull-request-notifier-for-bitbucket/commit/97a2d280192bde5) Tomas Bjerre *2018-01-27 10:02:19*
+
+  uses jQuery.remove() for greater protability
+
+Internet Explorer's HTMLButtonElement doesn't support a .remove() function, but jQuery can remove the element across browsers.
+  
+  [56742667e87ca6b](https://github.com/tomasbjerre/pull-request-notifier-for-bitbucket/commit/56742667e87ca6b) Matthew Hitchens *2018-01-25 18:43:26*
 
 ## 3.18
 ### GitHub [#259](https://github.com/tomasbjerre/pull-request-notifier-for-bitbucket/issues/259) Trigger for pull request DELETE
